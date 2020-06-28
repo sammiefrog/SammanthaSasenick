@@ -1,0 +1,42 @@
+{
+"id": 1,
+"title": "Track Your Employees",
+"repository": "https://github.com/sammiefrog/track-your-employees",
+"liveLink": "",
+"descrption": ""
+},
+{
+"id": 2,
+"title": "The Hungry Monkey",
+"repository": "https://github.com/sammiefrog/theHungryMonkey",
+"liveLink": "https://sammiefrog.github.io/theHungryMonkey/",
+"descrption": ""
+},
+{
+"id": 3,
+"title": "Sticklers Paradise",
+"repository": "https://github.com/sammiefrog/rules",
+"liveLink": "https://sticklersparadise.herokuapp.com/",
+"descrption": ""
+},
+{
+"id": 4,
+"title": "README Generator",
+"repository": "https://github.com/sammiefrog/readme-generator",
+"liveLink": "",
+"descrption": "A Node.js application to automatically generate a README.md file, using the Github API for users profile image."
+},
+{
+"id": 5,
+"title": "Feed the Frog a Burger",
+"repository": "https://github.com/sammiefrog/eat-da-burger",
+"liveLink": "https://burger-frogs.herokuapp.com/",
+"descrption": "A simple app demonstatrating the use of Handlebars"
+},
+{
+"id": 6,
+"title": "Employee Directory",
+"repository": "https://github.com/sammiefrog/EmployeeDirectory",
+"liveLink": "https://sammiefrog.github.io/EmployeeDirectory/",
+"descrption": ""
+}
