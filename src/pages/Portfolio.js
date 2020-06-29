@@ -52,21 +52,11 @@ function Portfolio() {
 
     return (
       <div>
-        <h1 className="text-center">Projects</h1>
         <Container>
-          {/* {Projects.map((project) => (
-          <Grid item xs={6} sm={4}>
-            <Paper className={classes.paper}>
-              <MediaCard
-                image={project.image}
-                title={project.title}
-                description={project.description}
-                repository={project.repository}
-                liveLink={project.liveLink}
-              />
-            </Paper>
-          </Grid>
-        ))} */}
+          <h1 className="text-center">Recent Projects: </h1>
+          <h3 className="text-center">
+            (For more see my <a href="https://github.com/sammiefrog">Github</a>)
+          </h3>
           <div className={classes.root}>
             <GridList className={classes.gridList} cols={3}>
               {Projects.map((project) => (
@@ -77,9 +67,6 @@ function Portfolio() {
                   repository={project.repository}
                   liveLink={project.liveLink}
                 />
-                //   <GridListTile key={tile.img} cols={tile.cols || 1}>
-                //     <img src={tile.img} alt={tile.title} />
-                //   </GridListTile>
               ))}
             </GridList>
           </div>
