@@ -10,17 +10,7 @@ import GridList from "@material-ui/core/GridList";
 // import tileData from "./tileData";
 
 
-// const useStyles = makeStyles((theme) => ({
-//   root: {
-//     flexGrow: 1,
-//   },
-//   paper: {
-//     padding: theme.spacing(2),
-//     textAlign: "center",
-//     color: theme.palette.text.secondary,
-//     justifyContent: "center"
-//   },
-// }));
+
 const useStyles = makeStyles((theme) => ({
   root: {
     display: "flex",
@@ -59,8 +49,9 @@ function Portfolio() {
           </h3>
           <div className={classes.root}>
             <GridList className={classes.gridList} cols={3}>
-              {Projects.map((project) => (
-                <MediaCard
+              {Projects.map((project, i) => (
+                  <MediaCard
+                    key={i}
                   image={project.image}
                   title={project.title}
                   description={project.description}

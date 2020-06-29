@@ -2,14 +2,16 @@ import React from "react";
 import Header from "../components/Header";
 import Typewriter from "typewriter-effect";
 import { makeStyles } from "@material-ui/core/styles";
+import Container from "@material-ui/core/Container";
+
 
 const useStyles = makeStyles({
-    typography: {
+    root: {
     color:"black",
     padding: "10px",
     margin: "20px",
     fontSize: "50px",
-    justifyContent: "center",
+    textAlign: "center",
   },
 });
 
@@ -19,14 +21,20 @@ function Home() {
 
     return (
       <div>
-        <Header />
-        <Typewriter className={classes.typography}
-          options={{
-            strings: ["Hello, my name is Sammantha!", "I am from Chicago, IL", "I am a Full Stack Web Developer", "I enjoy Javascript and Node.js"],
-            autoStart: true,
-            loop: true,
-          }}
-        />
+        <Container className={classes.root}>
+          <Typewriter
+            options={{
+              strings: [
+                "Hello, my name is Sammantha!",
+                "I am from Chicago, IL",
+                "I am a Full Stack Web Developer",
+                "I enjoy Javascript and Node.js",
+              ],
+              autoStart: true,
+              loop: true,
+            }}
+          />
+        </Container>
       </div>
     );
 }

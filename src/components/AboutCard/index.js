@@ -103,7 +103,7 @@ export default function AboutCard() {
         <CardContent>
           <Typography paragraph>Languages:</Typography>
           <Typography paragraph>
-            HTML, CSS, Javascript, GIT, JQuery, Node.js, MySQL, Sequelize, MongoDB, Mongoose, Handlebars, Command-Line, React
+            HTML, CSS, Javascript, GIT, JQuery, AJAX, Node.js, MySQL, Sequelize, MongoDB, Mongoose, Handlebars, Command-Line, React
           </Typography>
           <Typography paragraph>
             
