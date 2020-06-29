@@ -11,13 +11,14 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
+    margin: '25px'
   },
   media: {
     height: 140,
   },
 });
 
-export default function MediaCard() {
+export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
@@ -25,24 +26,35 @@ export default function MediaCard() {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
+          image={props.image}
+          title={props.title}
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="h2">
-            Lizard
+            {props.title}
           </Typography>
           <Typography variant="body2" color="textSecondary" component="p">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
+            {props.description}
           </Typography>
         </CardContent>
       </CardActionArea>
       <CardActions>
-        <Button size="small" color="primary">
+        <Button
+          size="small"
+          variant="contained"
+        color="primary"
+        href={props.repository}
+          target="_blank"
+        >
           View Code
         </Button>
-        <Button size="small" color="primary">
+        <Button
+          size="small"
+          variant="contained"
+        color="primary"
+            href={props.liveLink}
+          target="_blank"
+        >
           Live Link
         </Button>
       </CardActions>
