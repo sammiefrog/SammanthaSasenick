@@ -10,11 +10,12 @@ import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import FavoriteIcon from "@material-ui/icons/Favorite";
-import ShareIcon from "@material-ui/icons/Share";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
-import MoreVertIcon from "@material-ui/icons/MoreVert";
-
+import MailOutlineIcon from "@material-ui/icons/MailOutline";
+import DescriptionIcon from "@material-ui/icons/Description";
+import GetAppIcon from "@material-ui/icons/GetApp";
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -60,8 +61,9 @@ export default function AboutCard() {
           </Avatar>
         }
         action={
-          <IconButton aria-label="settings">
-            <MoreVertIcon />
+          <IconButton aria-label="settings" target="_blank" >
+            <GetAppIcon/>
+            <DescriptionIcon />
           </IconButton>
         }
         title="Sammantha Marie Sasenick"
@@ -74,20 +76,35 @@ export default function AboutCard() {
       />
       <CardContent>
         <Typography variant="body2" color="textSecondary" component="p">
-          For the past five years I have been a resident
-          of Nashville, TN. I obtained my Bachelor of Science in Psychology with
-          a concentration in Neuroscience in 2013. Recently, I obtained a Coding
-          Bootcamp Certificate from Vanderbilt University. I am now a Full-Stack
-          Web Developer specializing in the MERN Stack. I am looking to further
-          my knowledge, improve my skills, and continue to learn new languages.
+          For the past five years I have been a resident of Nashville, TN. I
+          obtained my Bachelor of Science in Psychology with a concentration in
+          Neuroscience in 2013. Recently, I obtained a Coding Bootcamp
+          Certificate from Vanderbilt University. I am now a Full-Stack Web
+          Developer specializing in the MERN Stack. I am looking to further my
+          knowledge, improve my skills, and continue to learn new languages.
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
-          <FavoriteIcon />
+        <IconButton
+          aria-label="email"
+          href="mailto:ssasenick412@gmail.com"
+          target="_blank"
+        >
+          <MailOutlineIcon />
         </IconButton>
-        <IconButton aria-label="share">
-          <ShareIcon />
+        <IconButton
+          aria-label="github"
+          href="https://github.com/sammiefrog"
+          target="_blank"
+        >
+          <GitHubIcon />
+        </IconButton>
+        <IconButton
+          aria-label="linkedin"
+          href="https://www.linkedin.com/in/sammantha-sasenick412/"
+          target="_blank"
+        >
+          <LinkedInIcon />
         </IconButton>
         <IconButton
           className={clsx(classes.expand, {
@@ -104,17 +121,12 @@ export default function AboutCard() {
         <CardContent>
           <Typography paragraph>Languages:</Typography>
           <Typography paragraph>
-            HTML, CSS, Javascript, GIT, JQuery, AJAX, Node.js, MySQL, Sequelize, MongoDB, Mongoose, Handlebars, Command-Line, React
+            HTML, CSS, Javascript, GIT, JQuery, AJAX, Node.js, MySQL, Sequelize,
+            MongoDB, Mongoose, Handlebars, Command-Line, React
           </Typography>
-          <Typography paragraph>
-            
-          </Typography>
-          <Typography paragraph>
-            
-          </Typography>
-          <Typography>
-
-          </Typography>
+          <Typography paragraph></Typography>
+          <Typography paragraph></Typography>
+          <Typography></Typography>
         </CardContent>
       </Collapse>
     </Card>

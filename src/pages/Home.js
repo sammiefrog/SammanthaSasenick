@@ -8,13 +8,13 @@ const useStyles = makeStyles({
     root: {
     color:"black",
     padding: "10px",
-    margin: "20px",
     fontSize: "50px",
     textAlign: "center",
     },
     img: {
-        height: "30%",
-        width: "30%",
+      height: "30%",
+      width: "30%",
+      padding: "20px"
     }
 });
 
