@@ -1,7 +1,10 @@
 # SammanthaSasenick
 <img align="left" src="https://img.shields.io/badge/License-MIT-green" alt="license">
 <img align="right" width="100" height="100" src="https://avatars0.githubusercontent.com/u/59233248?v=4" alt="Github Profile Image"><hr>
-  
+
+## Live Link
+https://sammiefrog.github.io/SammanthaSasenick/
+
 ## Contributors
 @sammiefrog
     
