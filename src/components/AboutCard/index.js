@@ -61,7 +61,7 @@ export default function AboutCard() {
           </Avatar>
         }
         action={
-          <IconButton aria-label="settings" target="_blank" >
+          <IconButton aria-label="settings" target="_blank" href="./assets/images/sasenicksammantha.pdf">
             <GetAppIcon/>
             <DescriptionIcon />
           </IconButton>
