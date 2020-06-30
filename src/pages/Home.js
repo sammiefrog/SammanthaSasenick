@@ -3,7 +3,6 @@ import Typewriter from "typewriter-effect";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
 
-
 const useStyles = makeStyles({
     root: {
     color:"black",
@@ -26,10 +25,9 @@ function Home() {
       <div>
         <Container className={classes.root}>
           <img className={classes.img}
-            src="./assets/images/avatar.png"
-            alt="memoji"
+            src={process.env.PUBLIC_URL + "./assets/images/avatar.png"}
+            alt="cartoon version of me"
           ></img>
-
           <Typewriter
             options={{
               strings: [
