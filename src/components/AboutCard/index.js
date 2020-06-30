@@ -71,7 +71,7 @@ export default function AboutCard() {
       />
       <CardMedia
         className={classes.media}
-        image="../../assets/images/circle.jpeg"
+        image={require("../../assets/images/circle.jpeg")}
         title="Sammantha"
       />
       <CardContent>

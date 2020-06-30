@@ -29,7 +29,7 @@ export default function MediaCard(props) {
       <CardActionArea>
         <CardMedia
           className={classes.media}
-          image={props.image}
+          image={require(`../../assets/works/${props.image}`)}
           title={props.title}
         />
         <CardContent>

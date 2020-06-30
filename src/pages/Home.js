@@ -25,7 +25,8 @@ function Home() {
       <div>
         <Container className={classes.root}>
           <img className={classes.img}
-            src={process.env.PUBLIC_URL + "./assets/images/avatar.png"}
+            src={require("../assets/images/avatar.png")}
+            // {process.env.PUBLIC_URL + "./assets/images/avatar.png"}
             alt="cartoon version of me"
           ></img>
           <Typewriter
