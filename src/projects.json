@@ -1,15 +1,15 @@
 [{
 "id": 1,
 "title": "Track Your Employees",
-"image": "../assets/works/test.gif",
+"image": "./assets/works/test.gif",
 "repository": "https://github.com/sammiefrog/track-your-employees",
-"liveLink": "",
+"liveLink": "https://github.com/sammiefrog/track-your-employees",
 "description": "A Command-line application to keep track of a company where users can add, delete, and update all parts of a company."
 },
 {
   "id": 2,
   "title": "The Hungry Monkey",
-  "image": "../assets/works/hungry.gif",
+  "image": "./assets/works/hungry.gif",
   "repository": "https://github.com/sammiefrog/theHungryMonkey",
   "liveLink": "https://sammiefrog.github.io/theHungryMonkey/",
   "description": "An app where a user can search for recipes or restaurants by a specific food they enter in the search bar."
@@ -17,7 +17,7 @@
 {
   "id": 3,
   "title": "Sticklers Paradise",
-  "image": "../assets/works/stickler.gif",
+  "image": "./assets/works/stickler.gif",
   "repository": "https://github.com/sammiefrog/rules",
   "liveLink": "https://sticklersparadise.herokuapp.com/",
   "description": "An open sourced app to house game rules. Users can create an account and login to add games, or anyone can view or search games."
@@ -25,15 +25,15 @@
 {
   "id": 4,
   "title": "README Generator",
-  "image": "../assets/works/test-app.gif",
+  "image": "./assets/works/test-app.gif",
   "repository": "https://github.com/sammiefrog/readme-generator",
-  "liveLink": "",
+  "liveLink": "https://github.com/sammiefrog/readme-generator",
   "description": "A Node.js application to automatically generate a README.md file, using the Github API for users profile image."
 },
 {
   "id": 5,
   "title": "Feed the Frog a Burger",
-  "image": "../assets/works/frogburger.gif",
+  "image": "./assets/works/frogburger.gif",
   "repository": "https://github.com/sammiefrog/eat-da-burger",
   "liveLink": "https://burger-frogs.herokuapp.com/",
   "description": "A simple app demonstatrating the use of Handlebars, you one can add burgers and 'devour' or 'regurgitate' them."
@@ -41,7 +41,7 @@
 {
   "id": 6,
   "title": "Employee Directory",
-  "image": "../assets/works/example.gif",
+  "image": "./assets/works/example.gif",
   "repository": "https://github.com/sammiefrog/EmployeeDirectory",
   "liveLink": "https://sammiefrog.github.io/EmployeeDirectory/",
   "description": "A simple React app demonstrating the use of sorting and searching through a table of random user data."

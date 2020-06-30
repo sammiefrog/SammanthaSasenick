@@ -11,10 +11,11 @@ import Typography from "@material-ui/core/Typography";
 const useStyles = makeStyles({
   root: {
     maxWidth: 345,
-    margin: '25px'
+    margin: '25px',
+    background: "#33c9dc"
   },
   media: {
-    height: 140,
+    height: 225,
   },
 });
 
@@ -22,7 +23,9 @@ export default function MediaCard(props) {
   const classes = useStyles();
 
   return (
-    <Card className={classes.root}>
+    <Card
+      className={classes.root}
+    >
       <CardActionArea>
         <CardMedia
           className={classes.media}
@@ -42,8 +45,8 @@ export default function MediaCard(props) {
         <Button
           size="small"
           variant="contained"
-        color="primary"
-        href={props.repository}
+          color="primary"
+          href={props.repository}
           target="_blank"
         >
           View Code
@@ -51,8 +54,8 @@ export default function MediaCard(props) {
         <Button
           size="small"
           variant="contained"
-        color="primary"
-            href={props.liveLink}
+          color="primary"
+          href={props.liveLink}
           target="_blank"
         >
           Live Link

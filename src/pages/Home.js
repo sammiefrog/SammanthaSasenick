@@ -1,5 +1,4 @@
 import React from "react";
-import Header from "../components/Header";
 import Typewriter from "typewriter-effect";
 import { makeStyles } from "@material-ui/core/styles";
 import Container from "@material-ui/core/Container";
@@ -12,7 +11,11 @@ const useStyles = makeStyles({
     margin: "20px",
     fontSize: "50px",
     textAlign: "center",
-  },
+    },
+    img: {
+        height: "30%",
+        width: "30%",
+    }
 });
 
 
@@ -22,6 +25,11 @@ function Home() {
     return (
       <div>
         <Container className={classes.root}>
+          <img className={classes.img}
+            src="./assets/images/avatar.png"
+            alt="memoji"
+          ></img>
+
           <Typewriter
             options={{
               strings: [

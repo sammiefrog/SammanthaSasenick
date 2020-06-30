@@ -10,7 +10,6 @@ import Collapse from "@material-ui/core/Collapse";
 import Avatar from "@material-ui/core/Avatar";
 import IconButton from "@material-ui/core/IconButton";
 import Typography from "@material-ui/core/Typography";
-import { red } from "@material-ui/core/colors";
 import FavoriteIcon from "@material-ui/icons/Favorite";
 import ShareIcon from "@material-ui/icons/Share";
 import ExpandMoreIcon from "@material-ui/icons/ExpandMore";
@@ -20,11 +19,12 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 const useStyles = makeStyles((theme) => ({
   root: {
     maxWidth: 500,
-        justifyContent: "center",
-    margin:"25px"
+    justifyContent: "center",
+    margin: "25px",
+    background: "#33c9dc",
   },
   media: {
-    height: 0,
+    height: "350px",
     paddingTop: "56.25%", // 16:9
   },
   expand: {
@@ -36,9 +36,10 @@ const useStyles = makeStyles((theme) => ({
   },
   expandOpen: {
     transform: "rotate(180deg)",
+    marginBottom: "20px",
   },
   avatar: {
-    backgroundColor: red[500],
+    backgroundColor: "#f73378",
   },
 }));
 

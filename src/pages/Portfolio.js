@@ -1,14 +1,9 @@
 import React, {useEffect, useState} from "react";
 import MediaCard from "../components/Card"
 import { makeStyles } from "@material-ui/core/styles";
-// import Paper from "@material-ui/core/Paper";
-// import Grid from "@material-ui/core/Grid";
 import Container from "@material-ui/core/Container";
 import Projects from "../projects.json";
 import GridList from "@material-ui/core/GridList";
-// import GridListTile from "@material-ui/core/GridListTile";
-// import tileData from "./tileData";
-
 
 
 const useStyles = makeStyles((theme) => ({
@@ -21,7 +16,7 @@ const useStyles = makeStyles((theme) => ({
   },
   gridList: {
     width: '100%',
-    height: 800,
+    height: 1000,
     justifyContent: "center"
   },
 }));
@@ -39,7 +34,6 @@ function Portfolio() {
         setProject(Projects);
     }
     
-
     return (
       <div>
         <Container>
