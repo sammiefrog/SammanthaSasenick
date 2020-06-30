@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useEffect} from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import Paper from "@material-ui/core/Paper";
 import Tabs from "@material-ui/core/Tabs";
@@ -10,11 +10,10 @@ const useStyles = makeStyles({
     flexGrow: 1,
     marginBottom: "20px",
     background: "#33c9dc",
-    fontColor: "black",
   },
   tabs: {
     backgroundColor: "#33c9dc",
-    fontColor: "black",
+    color: "white",
   },
 });
 
@@ -26,6 +25,12 @@ function NavTabs(props) {
     setValue(newValue);
   };
 
+  useEffect(() => {
+    props.history.push(
+      value === 0 ? "/" : value === 1 ? "/portfolio" : "/about"
+    );
+  }, [value]);
+
   return (
     <Paper className={classes.root}>
       <Tabs
@@ -34,9 +39,9 @@ function NavTabs(props) {
         indicatorColor="black"
         centered
       >
-        <Tab label="Home" href="/" />
-        <Tab label="Portfolio" href="/portfolio" />
-        <Tab label="About / Contact" href="/about" />
+        <Tab label="Home" />
+        <Tab label="Portfolio"  />
+        <Tab label="About / Contact"  />
       </Tabs>
     </Paper>
   );
