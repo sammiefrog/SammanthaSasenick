@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/SammanthaSasenick/static/css/main.27fd15f6.chunk.css",
+    "main.js": "/SammanthaSasenick/static/js/main.dabda9fa.chunk.js",
+    "main.js.map": "/SammanthaSasenick/static/js/main.dabda9fa.chunk.js.map",
+    "runtime-main.js": "/SammanthaSasenick/static/js/runtime-main.576b7dfe.js",
+    "runtime-main.js.map": "/SammanthaSasenick/static/js/runtime-main.576b7dfe.js.map",
+    "static/js/2.dd0cd057.chunk.js": "/SammanthaSasenick/static/js/2.dd0cd057.chunk.js",
+    "static/js/2.dd0cd057.chunk.js.map": "/SammanthaSasenick/static/js/2.dd0cd057.chunk.js.map",
+    "index.html": "/SammanthaSasenick/index.html",
+    "precache-manifest.e709d09f3eb8b5152f4b6c37df7ae5c8.js": "/SammanthaSasenick/precache-manifest.e709d09f3eb8b5152f4b6c37df7ae5c8.js",
+    "service-worker.js": "/SammanthaSasenick/service-worker.js",
+    "static/css/main.27fd15f6.chunk.css.map": "/SammanthaSasenick/static/css/main.27fd15f6.chunk.css.map",
+    "static/js/2.dd0cd057.chunk.js.LICENSE.txt": "/SammanthaSasenick/static/js/2.dd0cd057.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.576b7dfe.js",
+    "static/js/2.dd0cd057.chunk.js",
+    "static/css/main.27fd15f6.chunk.css",
+    "static/js/main.dabda9fa.chunk.js"
+  ]
+}
