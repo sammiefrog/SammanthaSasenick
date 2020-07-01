@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/SammanthaSasenick/static/css/main.27fd15f6.chunk.css",
-    "main.js": "/SammanthaSasenick/static/js/main.024b23a5.chunk.js",
-    "main.js.map": "/SammanthaSasenick/static/js/main.024b23a5.chunk.js.map",
+    "main.js": "/SammanthaSasenick/static/js/main.3964ba5c.chunk.js",
+    "main.js.map": "/SammanthaSasenick/static/js/main.3964ba5c.chunk.js.map",
     "runtime-main.js": "/SammanthaSasenick/static/js/runtime-main.576b7dfe.js",
     "runtime-main.js.map": "/SammanthaSasenick/static/js/runtime-main.576b7dfe.js.map",
-    "static/js/2.dd0cd057.chunk.js": "/SammanthaSasenick/static/js/2.dd0cd057.chunk.js",
-    "static/js/2.dd0cd057.chunk.js.map": "/SammanthaSasenick/static/js/2.dd0cd057.chunk.js.map",
+    "static/js/2.d8ae96f5.chunk.js": "/SammanthaSasenick/static/js/2.d8ae96f5.chunk.js",
+    "static/js/2.d8ae96f5.chunk.js.map": "/SammanthaSasenick/static/js/2.d8ae96f5.chunk.js.map",
     "index.html": "/SammanthaSasenick/index.html",
-    "precache-manifest.51461175e9e1f44f24316abf37e869d3.js": "/SammanthaSasenick/precache-manifest.51461175e9e1f44f24316abf37e869d3.js",
+    "precache-manifest.88bb8b67ceb1dd4922e601aa312fb71e.js": "/SammanthaSasenick/precache-manifest.88bb8b67ceb1dd4922e601aa312fb71e.js",
     "service-worker.js": "/SammanthaSasenick/service-worker.js",
     "static/css/main.27fd15f6.chunk.css.map": "/SammanthaSasenick/static/css/main.27fd15f6.chunk.css.map",
-    "static/js/2.dd0cd057.chunk.js.LICENSE.txt": "/SammanthaSasenick/static/js/2.dd0cd057.chunk.js.LICENSE.txt"
+    "static/js/2.d8ae96f5.chunk.js.LICENSE.txt": "/SammanthaSasenick/static/js/2.d8ae96f5.chunk.js.LICENSE.txt",
+    "static/media/avatar.png": "/SammanthaSasenick/static/media/avatar.840a8809.png",
+    "static/media/circle.jpeg": "/SammanthaSasenick/static/media/circle.eb13e4f7.jpeg",
+    "static/media/example.gif": "/SammanthaSasenick/static/media/example.907644ba.gif",
+    "static/media/frogburger.gif": "/SammanthaSasenick/static/media/frogburger.14c66cdd.gif",
+    "static/media/hungry.gif": "/SammanthaSasenick/static/media/hungry.72671a96.gif",
+    "static/media/stickler.gif": "/SammanthaSasenick/static/media/stickler.bd54e527.gif",
+    "static/media/test-app.gif": "/SammanthaSasenick/static/media/test-app.026795b3.gif",
+    "static/media/test.gif": "/SammanthaSasenick/static/media/test.d6bd7f46.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.576b7dfe.js",
-    "static/js/2.dd0cd057.chunk.js",
+    "static/js/2.d8ae96f5.chunk.js",
     "static/css/main.27fd15f6.chunk.css",
-    "static/js/main.024b23a5.chunk.js"
+    "static/js/main.3964ba5c.chunk.js"
   ]
 }

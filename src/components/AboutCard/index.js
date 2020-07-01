@@ -23,6 +23,14 @@ const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     margin: "25px",
     background: "#33c9dc",
+    [theme.breakpoints.down("sm")]: {
+      backgroundColor: theme.palette.secondary.main,
+      marginBottom: "55px",
+    },
+    [theme.breakpoints.down("lg")]: {
+      backgroundColor: "#33c9dc",
+      marginBottom: "55px",
+    },
   },
   media: {
     height: "350px",
@@ -61,7 +69,7 @@ export default function AboutCard() {
           </Avatar>
         }
         action={
-          <IconButton aria-label="settings" target="_blank" href="./assets/images/sasenicksammantha.pdf">
+          <IconButton aria-label="settings" target="_blank" href={require("../../assets/images/sasenicksammantha.pdf")}>
             <GetAppIcon/>
             <DescriptionIcon />
           </IconButton>
