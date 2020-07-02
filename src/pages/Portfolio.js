@@ -24,14 +24,14 @@ const useStyles = makeStyles((theme) => ({
 
 function Portfolio() {
     const classes = useStyles();
-    const [project, setProject] = useState({});
+    const [projects, setProjects] = useState({});
 
     useEffect(() => {
         getProjects();
     }, []);
     
     function getProjects(){
-        setProject(Projects);
+        setProjects(Projects);
     }
     
     return (

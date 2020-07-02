@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b81b1300006a70fae985c168bfeb7508",
+    "revision": "ec26120e1c0864b1878298ff92c4eb5a",
     "url": "/SammanthaSasenick/index.html"
   },
   {
-    "revision": "236ba1d5f274b081f7fa",
+    "revision": "f00ada47d8f97a24a588",
     "url": "/SammanthaSasenick/static/css/main.27fd15f6.chunk.css"
   },
   {
-    "revision": "ee592f40bdcd056cd8db",
-    "url": "/SammanthaSasenick/static/js/2.d8ae96f5.chunk.js"
+    "revision": "bac96c79f99b97932ab5",
+    "url": "/SammanthaSasenick/static/js/2.6db13f1d.chunk.js"
   },
   {
     "revision": "0749163b59fbee32225059cb60c18af6",
-    "url": "/SammanthaSasenick/static/js/2.d8ae96f5.chunk.js.LICENSE.txt"
+    "url": "/SammanthaSasenick/static/js/2.6db13f1d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "236ba1d5f274b081f7fa",
-    "url": "/SammanthaSasenick/static/js/main.3964ba5c.chunk.js"
+    "revision": "f00ada47d8f97a24a588",
+    "url": "/SammanthaSasenick/static/js/main.9dfa8fde.chunk.js"
   },
   {
     "revision": "cb77c48c2df56f6ac1fb",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "72671a9623db57ab93021fa6b2b77a6a",
     "url": "/SammanthaSasenick/static/media/hungry.72671a96.gif"
+  },
+  {
+    "revision": "44a2a2e081e41a5f9efdc138d6fc19a5",
+    "url": "/SammanthaSasenick/static/media/sasenicksammantha.44a2a2e0.pdf"
   },
   {
     "revision": "bd54e52743537e6a6388c011be63fb99",

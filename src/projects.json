@@ -1,7 +1,7 @@
 [{
 "id": 1,
 "title": "Track Your Employees",
-"image": "test.gif",
+"image": "example.gif",
 "repository": "https://github.com/sammiefrog/track-your-employees",
 "liveLink": "https://github.com/sammiefrog/track-your-employees",
 "description": "A Command-line application to keep track of a company where users can add, delete, and update all parts of a company."
@@ -41,7 +41,7 @@
 {
   "id": 6,
   "title": "Employee Directory",
-  "image": "example.gif",
+  "image": "empdir.gif",
   "repository": "https://github.com/sammiefrog/EmployeeDirectory",
   "liveLink": "https://sammiefrog.github.io/EmployeeDirectory/",
   "description": "A simple React app demonstrating the use of sorting and searching through a table of random user data."
